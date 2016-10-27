@@ -11,9 +11,8 @@ module.exports = {
   },
   plugins: [
     new webpack.ProvidePlugin({
-      '$': 'jquery',
-      'jQuery': 'jquery',
-      "window.jQuery": "jquery"
+      $: "jquery",
+      jQuery: "jquery"
     })
   ],
   output: {
@@ -33,16 +32,14 @@ module.exports = {
     extensions: ['', '.js', '.jsx']
   },
   module: {
-    loaders: [
-      {
-        loader: 'babel-loader',
-        query: {
-          presets: ['react', 'es2015', 'stage-0']
-        },
-        test: /\.jsx?$/,
-        exclude: /(node_modules|bower_components)/
-      }
-    ]
+    loaders: [{
+      loader: 'babel-loader',
+      query: {
+        presets: ['react', 'es2015', 'stage-0']
+      },
+      test: /\.jsx?$/,
+      exclude: /(node_modules|bower_components)/
+    }]
   },
   devtool: 'inline-source-map'
 };
