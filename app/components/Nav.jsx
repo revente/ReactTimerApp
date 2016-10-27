@@ -13,14 +13,14 @@ var Nav = () => {
             <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
           </li>
           <li>
-            <Link to="/" activeClassName="active-link">Countdown</Link>
+            <Link to="/countdown" activeClassName="active-link">Countdown</Link>
           </li>
         </ul>
       </div>
       <div className="top-bar-right">
         <ul className="menu">
           <li className="menu-text">
-            Created by <a href="http://www.google.com" target="_blank">Andi</a>
+            Created by <a href="http://www.google.com" target="_blank">Lilili</a>
           </li>
         </ul>
       </div>
