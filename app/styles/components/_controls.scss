@@ -1,12 +1,12 @@
 .controls {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 
-  .button {
-    padding: .75rem 3rem;
-  }
+    .button {
+        padding: 0.75rem 3rem;
+    }
 
-  .button:first-child {
-    margin-right: 1.5rem;
-  }
+    .button:first-child {
+        margin-right: 1.5rem;
+    }
 }
